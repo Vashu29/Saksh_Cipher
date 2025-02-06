@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Saksh-Cipher</string>
+    <string name="heading">Welcome To Vernam Cipher</string>
+    <string name="text_View_1">Plain Text Encryption</string>
+    <string name="Edit_text_1">Enter Plain Text</string>
+    <string name="Edit_text_2">Enter Key</string>
+    <string name="text_View_2">Resultant Cipher Text</string>
+    <string name="bt1">Encryption</string>
+    <string name="text_View_3">Cipher Text Decryption</string>
+    <string name="Edit_text_3">Enter Cipher Text</string>
+    <string name="Edit_text_4">Enter Key</string>
+    <string name="text_View_4">Resultant Plain Text</string>
+    <string name="bt2">Decryption</string>
+
+    <string name="caesar">Welcome To Caesar Cipher</string>
+    <string name="shiftKey_enc">Enter Shift Key</string>
+    <string name="shiftKey_dec">Enter Shift Key</string>
+
+    <string name="vegenere">Welcome To Vegenere Cipher</string>
+
+    <string name="playfair">Welcome To PlayFair Cipher</string>
+
+    <string name="hill_tv3">Enter (2 * 2) Key Matrix</string>
+    <string name="hill_heading">Welcome To Hill Cipher</string>
+    <string name="hill_Enter_CipherText">Enter Cipher Text</string>
+    <string name="hill_Decryption_heading">Cipher Text Decryption</string>
+    <string name="hill_matrix_et2">num</string>
+
+    <string name="Play_Fair_Edit_text_1">Enter Plain Text (no space)</string>
+    <string name="Play_Fair_Edit_text_2">Enter Key (no space)</string>
+    <string name="Play_Fair_Edit_text_3">Enter Cipher Text (no space)</string>
+    <string name="Play_Fair_Edit_text_4">Enter Key (no space)</string>
+
+    <string name="phone">Enter phone no:</string>
+    <string name="message">Enter message</string>
+    <string name="send">send</string>
+
+    <string name="hill_3_mul_3">Enter (3 * 3) Key Matrix</string>
+</resources>

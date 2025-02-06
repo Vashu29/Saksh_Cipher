@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F0AC"
+    tools:context=".Hill_Cipher_Act_6">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#F49A76"
+        android:gravity="center"
+        android:text="@string/hill_heading"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rel_m1"
+        android:layout_below="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_View_1"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:layout_margin="15sp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/Edit_text_1"
+            android:inputType="text"
+            android:textSize="21sp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et1"
+            android:gravity="center"
+            android:text="@string/hill_tv3"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_below="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:layout_marginEnd="10dp"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/et3"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_below="@+id/rl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et4"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:layout_marginEnd="10dp"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/et5"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl3"
+            android:gravity="center"
+            android:text="@string/text_View_2"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bt1"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_m2"
+        android:layout_below="@+id/rel_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/hill_Decryption_heading"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv5"
+            android:layout_margin="15sp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/hill_Enter_CipherText"
+            android:inputType="text"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et6"
+            android:gravity="center"
+            android:text="@string/hill_tv3"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl5"
+            android:layout_below="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et7"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:layout_marginEnd="10dp"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/et8"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl6"
+            android:layout_below="@+id/rl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et9"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:layout_marginEnd="10dp"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/et10"
+                    android:layout_width="54dp"
+                    android:layout_height="48dp"
+                    android:hint="@string/hill_matrix_et2"
+                    android:background="@color/white"
+                    android:inputType="numberSigned"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl6"
+            android:gravity="center"
+            android:text="@string/text_View_2"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv7"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bt2"
+            android:textSize="21sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
