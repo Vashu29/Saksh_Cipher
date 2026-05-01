@@ -9,7 +9,14 @@ Designed for 100% efficiency in text security operations.
 This project also deepened my understanding of cryptography techniques by not just implementing algorithms but also learning how they function under the hood.
 Grateful for this learning experience and looking forward to applying these problem-solving skills in larger, real-world projects! 🌐✨
 
-<img width="480" height="1066" alt="image" src="https://github.com/user-attachments/assets/632283b0-1f8a-4ac1-9e71-0168820a5560" /> <img width="480" height="1066" alt="image" src="https://github.com/user-attachments/assets/2ee13fa1-72c7-4e44-940c-08856896a3a1" />
+<br>
+<p align="center">
+  <img src="[IMAGE_LINK_1](https://github.com/user-attachments/assets/632283b0-1f8a-4ac1-9e71-0168820a5560)" width="45%" />
+  <img src="[IMAGE_LINK_2](https://github.com/user-attachments/assets/2ee13fa1-72c7-4e44-940c-08856896a3a1)" width="45%" />
+</p>
+<img width="480" height="1066" alt="image" src="https://github.com/user-attachments/assets/632283b0-1f8a-4ac1-9e71-0168820a5560" />
+
+<img width="480" height="1066" alt="image" src="https://github.com/user-attachments/assets/2ee13fa1-72c7-4e44-940c-08856896a3a1" />
 
 <img width="480" height="1066" alt="image" src="https://github.com/user-attachments/assets/89a868a8-0597-49bd-accc-bc6cee0c70bc" />
 
